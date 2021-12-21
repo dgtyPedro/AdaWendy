@@ -47,7 +47,7 @@ ReactDOM.render(
     </div>
     </div>
 
-    <div className='mobile '>
+    <div className='mobile'>
         <Mobile/>
     </div>
     

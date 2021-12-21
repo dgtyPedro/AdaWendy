@@ -1,5 +1,8 @@
 @media (max-width: 1200px)
 {
+    body{
+        color: #1D2020;
+    }
     
     .nav{
         margin: 0px!important;
@@ -8,7 +11,7 @@
     .navmobile{
         background-color: #80cccc;
     }
-    
+
     .m1c{
         height: fit-content;
         background-color: #80cccc;
@@ -17,6 +20,37 @@
     .m1i{
         text-align: center;
         
+    }
+
+    .m3c{
+        background-color: #80cccc;
+        padding: 2%;
+    }
+
+    .m4c{
+        padding: 2%;
+    }
+
+    .m5c{
+        background-color: #1D2020;
+        color: white;
+        padding: 2%;
+    }
+
+    .m6c{
+        padding: 2%;
+        padding-top: 5%;
+    }
+
+    .m7c{
+        background-color: #80cccc;
+        padding: 2%;
+        padding-top: 5%;
+    }
+
+    .lateralborder{
+        border-left: #80cccc 3px solid;
+        padding-left: 1%;
     }
 
     .img-fluid{
