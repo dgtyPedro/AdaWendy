@@ -139,7 +139,24 @@ Não fique mais perdido em uma montanha de papel.                        </p>
                         <p>A Wendy tem como foco trazer o máximo de segurança
 e respeito para os trabalhadores, queremos levar nossa
 perspectiva de segurança do trabalho combinando
-design e tecnologia.</p>
-                        <h2>Equipe AdaWendy </h2>
+design e tecnologia.</p><hr/>
+                        <h2>Equipe AdaWendy:</h2>
+                      
+                        <h5>Idealizador</h5>
+                        <h3>Felipe "Nit" Rodrigues</h3>
+                        <p>Opá tudo bem? Um cara que curte fazer coisas diferentes, estudantes da área de segurança do trabalho e viciado em consumir qualquer coisa que envolva tecnologia.</p>
+                        <a href='#'>Me siga no <i className="fab fa-linkedin-in"></i></a>
+                        <hr/>
+                        <h5>Designer</h5>
+                        <h3>Isabela "Yui" Messias</h3>
+                        <p>Se descreva.</p>
+                        <a href='#'>Me siga no <i className="fab fa-linkedin-in"></i></a>
+                        
+                </div>
+
+                <div className='m8c'>
+                        <h2>Doação <i className="fas fa-hands-helping"></i></h2>
+                        <p>Gostou da nossa ideia e quer acelerar o processo de desenvolvimento?</p>
+                        <p>Nos ajude com qualquer quantia.</p>
                 </div>
         </>

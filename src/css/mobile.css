@@ -43,7 +43,7 @@
     }
 
     .m7c{
-        background-color: #80cccc;
+        background-color: #FF8761;
         padding: 2%;
         padding-top: 5%;
     }
@@ -55,5 +55,17 @@
 
     .img-fluid{
         margin-top: 0px!important;
+    }
+
+    a{
+        text-decoration: none;
+        color: #1D2020;
+    }
+
+    .m8c{
+        background-color: #1D2020;
+        color: #80cccc;
+        padding: 2%;
+        padding-top: 5%;
     }
 }
