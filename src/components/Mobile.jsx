@@ -12,13 +12,13 @@ export default () =>
                 <a class="nav-link" href="#Inicio">Início</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Projeto</a>
+                <a class="nav-link" href="#Projeto">Projeto</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Contato</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Equipe</a>
+                <a class="nav-link" href="#Equipe">Equipe</a>
                 </li>
                 </ul>
 
@@ -59,8 +59,10 @@ export default () =>
 
                         <div class="card mx-5 my-2">
                         <div class="card-body">
-                        <h5 class="card-title">Opa, você está perdido? Relaxa, vamos te ajudar.</h5>
+                        <h5 class="card-title">Opa, você está perdido? Relaxa, vamos te ajudar.</h5><div className='text-center'>
                 
+                        <button type="button" class="btn btn-custom btn-custommobile my-3">Cadastrar Colaborador</button></div>
+           
                         <p class="card-text">
                         Está função serve para registrar e mostrar as responsabilidades sobre o uso de EPI, vamos te conectar com um sistema muito simples.
                         </p>
@@ -73,8 +75,8 @@ export default () =>
 
                         <div class="card mx-5 my-2">
                         <div class="card-body">
-                        <h5 class="card-title">Hora de se proteger!</h5>
-                
+                        <h5 class="card-title">Hora de se proteger!</h5><div className='text-center'>
+                <button type="button" class="btn btn-custom btn-custommobile my-3">Adicionar EPI</button></div>
                         <p class="card-text">
                         Está função serve para registrar e adicionar EPI e uniformes. Usar com responsabilidade essa função e preencher de forma correta, vamos te proteger a qualquer custo.</p>
                         
@@ -86,8 +88,9 @@ export default () =>
 
                         <div class="card mx-5 my-2">
                         <div class="card-body">
-                        <h5 class="card-title">Ue, cadê as fichas?      </h5>
-
+                        <h5 class="card-title">Ue, cadê as fichas?</h5><div className='text-center'>
+                        <button type="button" class="btn btn-custom btn-custommobile my-3">Consultar Fichas</button>
+                        </div>
                         <p class="card-text">
                         Está função serve para registrar e encontrar as fichas de EPI com filtros de datas e horas.
 Não fique mais perdido em uma montanha de papel.                        </p>
@@ -102,7 +105,7 @@ Não fique mais perdido em uma montanha de papel.                        </p>
 
 
                 <div className='m4c'>
-                        <div className='text-center'>
+                        <div className='text-center' id="Projeto">
                         <h1>Projeto</h1>
                         <h2>Projeto é destinado para ajudar você</h2>
                         </div>
@@ -134,7 +137,7 @@ Não fique mais perdido em uma montanha de papel.                        </p>
                         <p className='d-flex justify-content-center mx-2'>E por fim o tão amado registro de equipamento. Aqui você vai descrever qual o nome do equipamento, certificado de aprovação fabricante e a validade do equipamento.</p>
                 </div>
 
-                <div className='m7c'>
+                <div className='m7c' id='Equipe'>
                         <h2>Nossos Valores</h2>
                         <p>A Wendy tem como foco trazer o máximo de segurança
 e respeito para os trabalhadores, queremos levar nossa
@@ -145,12 +148,12 @@ design e tecnologia.</p><hr/>
                         <h5>Idealizador</h5>
                         <h3>Felipe "Nit" Rodrigues</h3>
                         <p>Opá tudo bem? Um cara que curte fazer coisas diferentes, estudantes da área de segurança do trabalho e viciado em consumir qualquer coisa que envolva tecnologia.</p>
-                        <a href='#'>Me siga no <i className="fab fa-linkedin-in"></i></a>
+                        <a href='#'><p>Me siga no <i className="fab fa-linkedin-in"></i></p></a>
                         <hr/>
                         <h5>Designer</h5>
                         <h3>Isabela "Yui" Messias</h3>
                         <p>Se descreva.</p>
-                        <a href='#'>Me siga no <i className="fab fa-linkedin-in"></i></a>
+                        <a href='#'><p>Me siga no <i className="fab fa-linkedin-in"></i></p></a>
                         
                 </div>
 
@@ -159,4 +162,24 @@ design e tecnologia.</p><hr/>
                         <p>Gostou da nossa ideia e quer acelerar o processo de desenvolvimento?</p>
                         <p>Nos ajude com qualquer quantia.</p>
                 </div>
+           
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contato</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <h1>Instagram <i class="fab fa-instagram"></i></h1><br/>
+        <h1>LinkedIn <i class="fab fa-linkedin"></i></h1><br/>
+        <h1>Whatsapp <i class="fab fa-whatsapp-square"></i></h1>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn " data-bs-dismiss="modal" style={{backgroundColor:"#1D2020", color:"white"}}>Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
         </>
