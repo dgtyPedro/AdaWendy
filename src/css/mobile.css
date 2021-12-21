@@ -1,0 +1,25 @@
+@media (max-width: 1200px)
+{
+    
+    .nav{
+        margin: 0px!important;
+    }
+
+    .navmobile{
+        background-color: #80cccc;
+    }
+    
+    .m1c{
+        height: fit-content;
+        background-color: #80cccc;
+    }
+
+    .m1i{
+        text-align: center;
+        
+    }
+
+    .img-fluid{
+        margin-top: 0px!important;
+    }
+}

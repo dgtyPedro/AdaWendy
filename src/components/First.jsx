@@ -20,7 +20,7 @@ export default () =>
         </li>
         </ul>
 
-        <div className="row ">
+        <div className="row rowCustom">
                 <div className="col first1 d-flex justify-content-center">
                         
                         <div className="center1">
@@ -34,7 +34,8 @@ export default () =>
                 </div>
                 
                 <div className="col second1">
-                        <img src={WorkingDude} alt="" className="WorkingDude"/>
+                        <div className='center1'>
+                        <img src={WorkingDude} alt="" className="WorkingDude img-fluid"/></div>
                 </div>
         </div>
 

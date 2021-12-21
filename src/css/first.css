@@ -2,7 +2,7 @@
     margin-top: 70px;
 }
 
-.row{
+.rowCustom{
     margin-top: 70px;
 }
 
@@ -13,8 +13,17 @@
     height: 500px;
 }
 
+.second1{
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
 .WorkingDude{
+
     width: 500px;
+    margin: auto;
 }
 
 .center1{
@@ -24,7 +33,6 @@
 .nav-link{
     text-decoration: none;
     color: black;
-    border-bottom: 2px solid white;
 }
 
 .nav-link:hover{

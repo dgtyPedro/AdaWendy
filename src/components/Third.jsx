@@ -10,7 +10,6 @@ export default () =>
 <div className="text-center" style={{marginTop:"100px"}}>
 <h1>Várias funções em<br/> um único lugar</h1>
 </div>
-
 <div className="wrapper3">
 <div id="carouselExampleIndicators" className="carousel slide m-5" data-bs-ride="carousel">
   <div className="carousel-indicators">
@@ -20,7 +19,7 @@ export default () =>
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-        <div className="card m-auto">
+        <div className="card cardcustom m-auto">
         <div className="card-body">
         <h5 className="card-title mb-5">Opa, você está perdido? Relaxa, vamos te ajudar.</h5>
         <h6 className="card-subtitle mb-4 text-muted "><div className='color1'></div></h6>
@@ -35,7 +34,7 @@ export default () =>
 
     </div>
     <div className="carousel-item">
-    <div className="card m-auto">
+    <div className="card cardcustom m-auto">
         <div className="card-body">
         <h5 className="card-title mb-5">Hora de se proteger!</h5>
         <h6 className="card-subtitle mb-4 text-muted"><div className='color2'></div></h6>
@@ -50,7 +49,7 @@ export default () =>
 
     </div>
     <div className="carousel-item">
-    <div className="card m-auto">
+    <div className="card cardcustom m-auto">
         <div className="card-body">
         <h5 className="card-title mb-5">Ue, cadê as fichas?</h5>
         <h6 className="card-subtitle mb-4 text-muted"><div className='color3'></div></h6>
@@ -74,6 +73,11 @@ export default () =>
     <span className="visually-hidden">Next</span>
   </button>
 </div>
+</div>
+  
+<div className='wrapper4' style={{display:"none"}}>
+
+
 </div>
 
 

@@ -1,6 +1,7 @@
 import React from 'react' 
 import ReactDOM from 'react-dom'
 import './css/index.css'
+import './css/mobile.css'
 import './components/First'
 import First from './components/First'
 import './components/Second'
@@ -15,11 +16,14 @@ import './components/Sixth'
 import Sixth from './components/Sixth'
 import './components/Seventh'
 import Seventh from './components/Seventh'
+import './components/Mobile'
+import Mobile from './components/Mobile'
 
 
 
 ReactDOM.render(
     <>
+    <div className='desktop'>
     <div id='firstSection'>
     <First/>
     </div>
@@ -40,6 +44,11 @@ ReactDOM.render(
     </div>
     <div id='seventhSection'>
     <Seventh/>
+    </div>
+    </div>
+
+    <div className='mobile '>
+        <Mobile/>
     </div>
     
     </>,

@@ -1,3 +1,26 @@
+@media (max-width: 1200px)
+{
+    .mobile{
+        display: block!important;
+    }
+
+    .desktop{
+        display: none!important;
+    }
+}
+
+@media (min-width: 1201px)
+{
+    .mobile{
+        display: none!important;
+    }
+
+    .desktop{
+        display: block!important;
+    }
+}
+
+
 @font-face {
 font-family: 'Circular-Bold';
 src: url('../Circular/CircularStd-Black.otf');
@@ -12,7 +35,7 @@ font-style: normal;
     
     font-weight: normal;
     font-style: normal;
-    }
+}
 
 h1, h2, h3, h4, h5, h6{
     font-family: 'Circular-Bold';
@@ -24,4 +47,8 @@ p{
 
 #root{
     overflow-x:hidden
+}
+
+.row{
+    margin-top: 70px;
 }

@@ -28,8 +28,8 @@
 }
 
 .equipe{
-    height: 550px;
-    width: 10px;
+    height: fit-content;
+    width: fit-content;
     margin-right: 40px;
     margin-left: 40px;
     border: white 3px solid;

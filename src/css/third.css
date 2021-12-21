@@ -40,19 +40,13 @@
 }
 
 
-.card{
+.cardcustom{
   width: 600px;
   height: 300px;
   border-radius: 20px;
 
 }
 
-.card-link{
-  text-decoration: none;
-  color: black;
-  border: 1px black solid;
-  width: 400px;
-}
 
 .botao{ 
   text-align: center;

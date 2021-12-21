@@ -7,7 +7,7 @@ export default () =>
         
         <div className="row">
                 <div className="col d-flex justify-content-center">
-                        <div className="center">
+                        <div className="center mx-5">
                                
                                 <h1>Nossos Valores.</h1><br/><br/>
                                 <p style={{fontSize:"18px"}}>A Wendy tem como foco trazer o máximo de segurança<br/>
@@ -31,9 +31,9 @@ export default () =>
                         </div>
                 </div>
                 
-                <div className="col second mt-5">
-                <img src={Icon} width="70%" style={{marginBottom:"-550px"}}/>
-                </div>
+                <div className="col mt-5 imgEquipe">
+                <img src={Icon} width="70%" style={{marginBottom:"-550px"}} className="img-fluid "/>
+        </div>
         </div>
 
         

@@ -5,14 +5,15 @@ import Cellphone from '../img/2.png'
 
 export default () =>
         <div className="row ">
-        <div className="col third d-flex justify-content-center">
-                <div className="center">
-                        <img src={Cellphone} alt="" className="Cellphone"/>
+
+        <div className="col imgCellphone third d-flex justify-content-center">
+                <div className="center imgCellphone">
+                        <img src={Cellphone} alt="" className="Cellphone imgCellphone"/>
                 </div>
         </div>
 
-        <div className="col">
-                <div className="center">
+        <div className="col Praticidade">
+                <div className="center Praticidade">
                         <h1 style={{fontSize:"50px"}}>Praticidade</h1>
                         <h1 style={{color: "#069B9C"}}>Tudo o que você precisa <br/>na palma da sua mão.</h1>
                         <p style={{fontSize:"20px"}}>Nosso aplicativo tem por objetivo proporcionar novas <br/> experiências de controle dos equipamentos de proteção.</p>
