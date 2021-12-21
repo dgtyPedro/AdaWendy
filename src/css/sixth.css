@@ -1,0 +1,31 @@
+.nav{
+    margin-top: 70px;
+}
+
+.row{
+    margin-top: 70px;
+}
+
+.first{
+    background-color: #80cccc;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    height: 500px;
+    
+}
+
+.center{
+    margin: auto;
+    justify-content: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid white;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid #80cccc;
+    color: black;
+}

@@ -1,0 +1,71 @@
+#carouselExampleIndicators{
+  background-color: #80cccc;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.wrapper3{
+  margin-left: -100px;
+  margin-right: -100px;
+}
+
+.color1{
+  background-color: #FF50F6;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.color2{
+  background-color: #7BBFBF;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.card-text{
+  font-size: 20px;
+}
+
+.card-title{
+  font-size: 22px;
+}
+
+.color3{
+  background-color: #7BBFBF;
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+
+.card{
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+
+}
+
+.card-link{
+  text-decoration: none;
+  color: black;
+  border: 1px black solid;
+  width: 400px;
+}
+
+.botao{ 
+  text-align: center;
+  margin-bottom: 10px;
+  position: absolute;
+  bottom: 0;
+
+}
+
+.btn-custom{
+  width: 400px;
+  border: #80cccc 2px solid;
+  border-radius: 10px;
+  font-family: 'Circular-Light';
+  
+}

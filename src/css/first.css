@@ -1,0 +1,33 @@
+.nav{
+    margin-top: 70px;
+}
+
+.row{
+    margin-top: 70px;
+}
+
+.first1{
+    background-color: #80cccc;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    height: 500px;
+}
+
+.WorkingDude{
+    width: 500px;
+}
+
+.center1{
+    margin: auto;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid white;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid #80cccc;
+    color: black;
+}

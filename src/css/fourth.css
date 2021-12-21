@@ -1,0 +1,37 @@
+.nav{
+    margin-top: 70px;
+}
+
+.row{
+    margin-top: 70px;
+}
+
+.center{
+    margin: auto;
+}
+
+.second2{
+    background-color: #1D2020;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    height: 1000px;
+    color: white;
+}
+
+.textosecond2{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 200px;
+}
+
+.textofirst2{
+    margin: auto;
+    margin-left: 60px;
+    
+    margin-right: 60px;
+}
+
+.subfirst2{
+    border-left: 4px solid #80cccc;
+    padding-left: 10px;
+}

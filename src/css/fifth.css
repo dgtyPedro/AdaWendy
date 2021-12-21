@@ -1,0 +1,25 @@
+.nav{
+    margin-top: 70px;
+}
+
+.row{
+    margin-top: 70px;
+}
+
+.rowmestre{
+    height: fit-content;
+}
+
+.first3{
+    background-color: #1D2020;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    height: 650px;
+    color: white;
+    
+}
+
+.Qmestres{
+    margin-right: 200px;
+    margin-left: 80px;
+}

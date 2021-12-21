@@ -1,0 +1,27 @@
+@font-face {
+font-family: 'Circular-Bold';
+src: url('../Circular/CircularStd-Black.otf');
+
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular-Light';
+    src: url('../Circular/CircularStd-Medium.otf');
+    
+    font-weight: normal;
+    font-style: normal;
+    }
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Circular-Bold';
+}
+
+p{
+    font-family: 'Circular-Light';
+}
+
+#root{
+    overflow-x:hidden
+}
