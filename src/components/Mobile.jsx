@@ -7,18 +7,18 @@ import Stonks from '../img/3.png'
 
 export default () =>
         <>
-                <ul class="nav justify-content-center fixed-top navmobile">
-                <li class="nav-item">
-                <a class="nav-link" href="#Inicio">Início</a>
+                <ul className="nav justify-content-center fixed-top navmobile">
+                <li className="nav-item">
+                <a className="nav-link" href="#Inicio">Início</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#Projeto">Projeto</a>
+                <li className="nav-item">
+                <a className="nav-link" href="#Projeto">Projeto</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Contato</a>
+                <li className="nav-item">
+                <a className="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Contato</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#Equipe">Equipe</a>
+                <li className="nav-item">
+                <a className="nav-link" href="#Equipe">Equipe</a>
                 </li>
                 </ul>
 
@@ -57,13 +57,13 @@ export default () =>
                 <div className='m3c'>
                         <h1 className='text-center'>Várias funções em um único lugar</h1>
 
-                        <div class="card mx-5 my-2">
-                        <div class="card-body">
-                        <h5 class="card-title">Opa, você está perdido? Relaxa, vamos te ajudar.</h5><div className='text-center'>
+                        <div className="card mx-5 my-2">
+                        <div className="card-body">
+                        <h5 className="card-title">Opa, você está perdido? Relaxa, vamos te ajudar.</h5><div className='text-center'>
                 
-                        <button type="button" class="btn btn-custom btn-custommobile my-3">Cadastrar Colaborador</button></div>
+                        <button type="button" className="btn btn-custom btn-custommobile my-3">Cadastrar Colaborador</button></div>
            
-                        <p class="card-text">
+                        <p className="card-text">
                         Está função serve para registrar e mostrar as responsabilidades sobre o uso de EPI, vamos te conectar com um sistema muito simples.
                         </p>
                         
@@ -73,11 +73,11 @@ export default () =>
 
 
 
-                        <div class="card mx-5 my-2">
-                        <div class="card-body">
-                        <h5 class="card-title">Hora de se proteger!</h5><div className='text-center'>
-                <button type="button" class="btn btn-custom btn-custommobile my-3">Adicionar EPI</button></div>
-                        <p class="card-text">
+                        <div className="card mx-5 my-2">
+                        <div className="card-body">
+                        <h5 className="card-title">Hora de se proteger!</h5><div className='text-center'>
+                <button type="button" className="btn btn-custom btn-custommobile my-3">Adicionar EPI</button></div>
+                        <p className="card-text">
                         Está função serve para registrar e adicionar EPI e uniformes. Usar com responsabilidade essa função e preencher de forma correta, vamos te proteger a qualquer custo.</p>
                         
                         
@@ -86,12 +86,12 @@ export default () =>
 
 
 
-                        <div class="card mx-5 my-2">
-                        <div class="card-body">
-                        <h5 class="card-title">Ue, cadê as fichas?</h5><div className='text-center'>
-                        <button type="button" class="btn btn-custom btn-custommobile my-3">Consultar Fichas</button>
+                        <div className="card mx-5 my-2">
+                        <div className="card-body">
+                        <h5 className="card-title">Ue, cadê as fichas?</h5><div className='text-center'>
+                        <button type="button" className="btn btn-custom btn-custommobile my-3">Consultar Fichas</button>
                         </div>
-                        <p class="card-text">
+                        <p className="card-text">
                         Está função serve para registrar e encontrar as fichas de EPI com filtros de datas e horas.
 Não fique mais perdido em uma montanha de papel.                        </p>
                         
@@ -147,13 +147,15 @@ design e tecnologia.</p><hr/>
                       
                         <h5>Idealizador</h5>
                         <h3>Felipe "Nit" Rodrigues</h3>
-                        <p>Opá tudo bem? Um cara que curte fazer coisas diferentes, estudantes da área de segurança do trabalho e viciado em consumir qualquer coisa que envolva tecnologia.</p>
-                        <a href='#'><p>Me siga no <i className="fab fa-linkedin-in"></i></p></a>
+                        <p>"Opá tudo bem? Um cara que curte fazer coisas diferentes, 
+                                estudantes da área de segurança do trabalho e viciado em consumir qualquer coisa que envolva tecnologia."</p>
+                        <a href='https://www.linkedin.com/in/felipe-rodrigues-777349150/'><p>Me siga no <i className="fab fa-linkedin-in"></i></p></a>
                         <hr/>
                         <h5>Designer</h5>
-                        <h3>Isabela "Yui" Messias</h3>
-                        <p>Se descreva.</p>
-                        <a href='#'><p>Me siga no <i className="fab fa-linkedin-in"></i></p></a>
+                        <h3>Isabela "Yue" Messias</h3>
+                        <p>"Sou uma pessoa trans não-binária que se apaixonou pela área
+de design e desde meus 16 anos realizo pequenos trabalhos para família e amigos. Hoje consigo trazer todo meu potencial para a Wendy trabalhando para sua melhor experiência."</p>
+                        <a href='https://www.linkedin.com/in/bellmessiasart/'><p>Me siga no <i className="fab fa-linkedin-in"></i></p></a>
                         
                 </div>
 
@@ -163,23 +165,24 @@ design e tecnologia.</p><hr/>
                         <p>Nos ajude com qualquer quantia.</p>
                 </div>
            
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Contato</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body text-center">
-        <h1>Instagram <i class="fab fa-instagram"></i></h1><br/>
-        <h1>LinkedIn <i class="fab fa-linkedin"></i></h1><br/>
-        <h1>Whatsapp <i class="fab fa-whatsapp-square"></i></h1>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn " data-bs-dismiss="modal" style={{backgroundColor:"#1D2020", color:"white"}}>Fechar</button>
-      </div>
-    </div>
-  </div>
-</div>
+                <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog">
+                <div className="modal-content">
+                <div className="modal-header">
+                        <h5 className="modal-title" id="exampleModalLabel">Contato</h5>
+                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div className="modal-body text-center">
+                        <h1><a href="https://www.linkedin.com/company/ada-wendy">Instagram <i className="fab fa-instagram"></i></a></h1><br/>
+                        <h1><a href="https://www.instagram.com/ergowendy/">LinkedIn</a> <i className="fab fa-linkedin"></i></h1><br/>
+                        <h1 style={{fontSize: "22px"}}>(11) 97581-5490 <i className="fab fa-whatsapp-square"></i></h1><br/>
+                        <h1 style={{fontSize: "20px"}}>suportewendy@hotmail.com <i className="far fa-envelope"></i></h1>
+                </div>
+                <div className="modal-footer">
+                        <button type="button" className="btn " data-bs-dismiss="modal" style={{backgroundColor:"#1D2020", color:"white"}}>Fechar</button>
+                </div>
+                </div>
+                </div>
+                </div>
 
         </>

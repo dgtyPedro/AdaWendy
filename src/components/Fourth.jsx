@@ -45,8 +45,12 @@ export default () =>
                                 <p style={{fontSize:"20px"}}>O aplicativo está passando pela fase de design e desenvolvimento, não temos uma data prevista para o 
                                         lançamento, manteremos as atualizações do projeto no Instagram e Linkedin.  
                                 </p>
-                                <i className="fab fa-linkedin me-5" style={{fontSize:"60px"}}></i> <i className="fab fa-instagram" style={{fontSize:"60px"}}></i>
+                                <a style={{color:"white"}} href="https://www.instagram.com/ergowendy/"><i className="fab fa-linkedin me-5" style={{fontSize:"60px"}}></i> 
+                                </a>
+                                <a style={{color:"white"}} href="https://www.linkedin.com/company/ada-wendy"><i className="fab fa-instagram" style={{fontSize:"60px"}}></i>
+                                </a>
                         </div>
+
                 </div>
         </div>
 
