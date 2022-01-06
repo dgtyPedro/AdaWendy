@@ -1,5 +1,6 @@
 {
   "name": "ada-wendy",
+  "homepage": "https://adawendy.com.br",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
