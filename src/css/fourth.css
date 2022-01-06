@@ -7,14 +7,15 @@
     background-color: #1D2020;
     border-top-left-radius: 80px;
     border-bottom-left-radius: 80px;
-    height: 1000px;
+    height: fit-content;
     color: white;
 }
 
 .textosecond2{
     margin-top: 50px;
     margin-left: 50px;
-    margin-right: 200px;
+    margin-right: 10%;
+    margin-bottom: 10px;
 }
 
 .textofirst2{
