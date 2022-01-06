@@ -21,6 +21,8 @@
 }
 
 
+
+
 @font-face {
 font-family: 'Circular-Bold';
 src: url('../Circular/CircularStd-Black.otf');
@@ -46,9 +48,13 @@ p{
 }
 
 #root{
-    overflow-x:hidden
+    overflow-y:visible;
 }
 
 .row{
     margin-top: 70px;
+}
+
+body{
+    overflow-x:hidden;
 }

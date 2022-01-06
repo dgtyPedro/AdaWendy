@@ -41,7 +41,7 @@ export default () =>
                     <div className='col equipe text-center p-2 pt-5'>
                         <p style={{color:"white", fontSize:"20px"}}>Idealizador</p>
                         <p style={{color:"white", fontSize:"25px"}}>Felipe "Nit" Rodrigues</p>
-                        <p style={{color:"white", height:"230px", fontSize:"20px"}}>"Opá tudo bem? Um cara que curte fazer coisas diferentes, estudantes da área de 
+                        <p className="nitdesc" style={{color:"white", height:"300px", fontSize:"20px"}}>"Opá tudo bem? Um cara que curte fazer coisas diferentes, estudantes da área de 
                         segurança do trabalho e viciado em consumir qualquer coisa que envolva tecnologia"</p>
                         <hr style={{color:"white", border:"white solid 3px", borderRadius:"10px"}}/>
                         <p style={{color:"white", fontSize:"30px"}}>_Me siga no</p>
@@ -51,7 +51,7 @@ export default () =>
                     <div className='col equipe text-center p-2 pt-5'>
                         <p style={{color:"white", fontSize:"20px"}}>Designer</p>
                         <p style={{color:"white", fontSize:"25px"}}>Isabela "Yue" Messias</p>
-                        <p style={{color:"white", height:"230px", fontSize:"18px"}}>"Sou uma pessoa trans não-binária que se apaixonou pela área
+                        <p style={{color:"white", height:"300px", fontSize:"18px"}}>"Sou uma pessoa trans não-binária que se apaixonou pela área
 de design e desde meus 16 anos realizo pequenos trabalhos para família e amigos. Hoje consigo trazer todo meu potencial para a Wendy trabalhando para sua melhor experiência."
 </p>
                         <hr style={{color:"white", border:"white solid 3px", borderRadius:"10px"}}/>

@@ -22,7 +22,7 @@
 
 .second7{
     background-color: #80cccc;
-    height: 700px;
+    height: fit-content;
     border-top-left-radius: 100px;
     border-top-right-radius: 100px;
 }
@@ -35,3 +35,5 @@
     border: white 3px solid;
     border-radius: 50px;
 }
+
+
